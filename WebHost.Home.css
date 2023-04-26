@@ -130,12 +130,10 @@ nav {
   }
   .wrap{
     flex-wrap: wrap;
-
   }
   ul  .checkicon{
     list-style-image: url("Screenshot_1.png");
   }
-  
   li{
     padding-left: 10px;
   }
@@ -152,7 +150,6 @@ nav {
     .header{
         display: none;
     }
- 
     .respones{
         height: 120px;
         display: flex;
