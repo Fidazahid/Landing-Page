@@ -125,7 +125,7 @@ nav {
 
   }
   .w3-card:hover{
-    box-shadow: 0px 0px 20px rgb(64, 61, 61);
+    box-shadow: 0px 0px 10px rgb(129, 125, 125);
     transition: all .3s;
   }
   .wrap{
