@@ -1,0 +1,268 @@
+
+.clean-list{
+    margin: 80px 0px 0 0;
+    padding-left: 3%;
+}
+.mt-50{
+    margin-top: 50px;
+}
+.pr-0{
+    padding-right: 0px !important;
+}
+.btr-16{
+    border-top-left-radius: 10px;
+}
+.bbr-16{
+    border-bottom-left-radius: 10px;
+}
+
+.capitalize{
+    text-transform: capitalize;
+}
+.font-size{
+    font-size: 70px;
+}
+.w3-panel{
+    padding-left: 3% !important;
+  
+}
+.mt-140{
+    margin-top: -100px;
+}
+.flex{
+    display: flex;
+}
+.border-round-left{
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.email-text{
+    width: 70%;
+min-width: 50px;
+height: 60px;
+border-radius: 5px;
+padding-left: 30px;
+}
+.ClientList{
+    max-width: 1450px;
+    width: 100%;
+    height: 100vh;
+    margin: 2rem auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    border: 2px solid black;
+    border-radius: 7px;
+}
+.ClientList .client-pics{
+    width: 65%;
+    height: fit-content;
+    margin: 3rem 0rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+     border: 1px solid black; 
+}
+.client-pics .C-pic-box{
+    width: 6.5rem;
+    height: 6.5rem;
+    border-radius: 50%;
+    margin: 1rem 2rem;
+     border: 2px solid black; 
+}
+.C-pic-box img{
+    display: block;
+    width: 100%;
+    border-radius: 100%;
+}
+input[value="Submit"]{
+    width: 105px;
+    height: 50px;
+    background-color: black;
+    border-radius: 7px;
+    color: white;
+    cursor: pointer;
+    margin-left: 10px;
+}
+.checked{
+    font-size: 17px !important;
+    color: #cda10f;
+}
+.border-none{
+    border: none;
+}
+.w3-panel{
+    padding: 0 !important;
+    position: relative;
+    top: 180px;
+}
+.pointer{
+    cursor: pointer;
+}
+.width-170{
+    width: 120px;
+}
+.border-right-2{
+    border-right: solid #b2b2b4 1px;
+
+}
+.inline-block{
+    display: inline-block;
+    margin-left: -10px;
+}
+.height-30{
+    height: 30px;
+}
+.text-align-center{
+    text-align: center;
+}
+.width-130{
+    width: 130px;
+}
+.color-black {
+    color: #b2b2b4;
+}
+.bolder{
+    font-weight: bolder;
+}
+.m-left-0{
+    margin-left: 0 !important;
+}
+.bg-drak{
+    background-color: #505a61;
+    height: 300px;
+    margin-top: 100px;
+    color: white;
+}
+.column{
+    flex-direction: column;
+}
+.text-center{
+align-items: center;
+justify-content: center;
+}
+.w3-border-bottom {
+    border-bottom: 2px solid #ccc !important
+}
+.justify-content-center{
+    justify-content: center;
+    
+}
+.width-80{
+    width: 65%;
+}
+.height{
+    height: 200px;
+}
+.height-170{
+    height: 170px;
+}
+.font{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.width-95{
+    width: 95%;
+}
+.border{
+    border: solid black 2px;
+}
+.wrap{
+    flex-wrap: wrap;
+}
+.height-650{
+    height: 700px;
+}
+.p-left{
+    padding-left: 50px;
+}
+.margin-top{
+    margin-top: 100px;
+}
+.top-20{
+    margin-top: 20px;
+}
+.extra-width{
+    width: 500px !important;
+}
+i:hover{
+color: #fe2573;
+cursor: pointer;
+
+}
+.font{
+    font-family: Verdana, sans-serif;
+    color: #505a61;
+}
+input[value="Get CleanList"]{
+    width: 150px;
+    height: 50px;
+    cursor: pointer;
+    background-color: black;
+    border-radius: 5px;
+    color: white;
+    margin-left: 20px;
+}
+
+.relative{
+    position: relative;
+    top: 20px;
+    font-weight: bolder;
+}
+@media only screen and (max-width: 993px) {
+    .madia-993{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .justify-content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .mt-140{
+        margin-top: -100px;
+    }
+    .height{
+        height: 100%;
+    }
+    .block{
+        width: 100% !important;
+        display: flex !important;
+        flex-direction: column !important;
+        margin-top: 10px !important;
+    }
+    .height-650{
+        height: 100%;
+        padding-bottom: 40px;
+    }
+    .height-170{
+        height: 100%;
+    }
+    .border-round-left{
+        display: flex;
+        justify-content: start;
+        align-items: start;
+        width: 97%;
+        margin-right: 25px;
+    }
+  .margin-top-madia{
+    margin-top: 60px;
+  }
+  
+    .relative{
+        position: relative;
+        top: 20px;
+    }
+    .center-text{
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+    }
+  }
+  @media only screen and (max-width: 542px) {
+    .extra-width{
+        width: 100% !important;
+    }
+  }
