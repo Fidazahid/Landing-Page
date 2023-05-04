@@ -131,12 +131,14 @@ nav {
   .wrap{
     flex-wrap: wrap;
   }
-  ul  .checkicon{
-    list-style-image: url("Screenshot_1.png");
-  }
+ 
   li{
+    
     padding-left: 10px;
   }
+ .d-flex{
+  display: flex;
+ }
   @media screen and (max-width:1211px) {
   
     .header{
@@ -146,6 +148,21 @@ nav {
       margin-top: 150px;
     }
   }
+
+
+
+
+ /* **** Destop Screen  **** */
+ /* **** Destop Screen  **** */
+ /* **** Destop Screen  **** */
+ /* **** Destop Screen  **** */
+ /* **** Destop Screen  **** */
+ /* **** Destop Screen  **** */
+
+
+
+
+
   @media screen and (max-width:999px) {
     .header{
         display: none;
@@ -217,7 +234,18 @@ nav {
     #check:checked ~ .show{
       display: none;
     }
-    .w3-card{
-      width: 100%;
-    }
+   
   }
+   /* ****Mobile Screen*** */
+   /* ****Mobile Screen*** */
+   /* ****Mobile Screen*** */
+   /* ****Mobile Screen*** */
+
+   @media screen and (max-width:775px) {
+.w3-card{
+  width: 100%;
+}
+   }
+  
+
+
